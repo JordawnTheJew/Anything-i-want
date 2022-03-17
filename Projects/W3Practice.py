@@ -187,4 +187,75 @@ x=memoryview(bytes(5))              memoryview
 # y=2.8 float
 # z=1j  complex
 
-print(type(x))
+#x=float(2.8)
+
+#print(type(x))
+
+"""
+a = "hello world"
+print (a[0])
+"""
+"""
+for x in "banana":
+    print(x)
+    """
+"""
+a = "hello, world!"
+print(len(a))
+"""
+"""
+txt = "The best things in life are free!"
+print ("Yes, 'free', is present." not in txt)
+"""
+"""
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+    print("No, 'expensive' is Not Present.")
+"""
+"""
+b = "Hello, World!"
+print(b[-5:-2])
+"""
+
+"""                 
+a = "Hello, World!"
+print (a.lower())   
+"""
+"""
+a = "                     Hello, World!                 "
+print (a.strip())
+"""
+"""
+a = "hello, World!"
+print(a.replace("h", "J"))
+"""
+"""
+a = "Hello, World!"
+print(a.split("o"))
+"""
+"""
+a = "Hello"
+b = "Worlds"
+c = a+" " +b
+print(c)
+"""
+"""
+status = 86
+txt = "My name is Robert, I am {}"
+print(txt.format(status))
+"""
+
+
+"""
+quantity = int(input("How many do you have?"))
+itemno = str(input("What type of item do you want?"))
+price = int(input("What price would you like?"))
+myorder = "I want {0} pieces of item {2} for {1} dollars."
+print(myorder.format(quantity, itemno, price))
+"""
+i = int(input("Gimme a number"))
+
+for i in range(i):
+  if i > 3:
+    break
+  print(i)
