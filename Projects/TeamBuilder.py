@@ -83,6 +83,14 @@ while True:
 EPoke.close()
 
 """_________________Compare Enemy Pokemon to Users and Tell user which pokemon is best_________________"""
+EPokeType = {EPoke1[3]}
+
+print (EPokeType)
+
+
+
+
+
 
 
 # ALL """ COMMENTED CODE HEREAFTER WERE UNSUCSESSFUL ATTEMPTS TO CALL DATE STORED IN U/EPoke to use as variables for comparision.
@@ -126,4 +134,6 @@ with open('UPoke.json') as json_file:
 
 
 #Tell user What UPoke is best to defeat EPoke.
+
+
 
