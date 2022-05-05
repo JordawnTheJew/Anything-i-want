@@ -1,0 +1,32 @@
+"""
+
+import collections
+import random
+
+class LifeSaver:
+    def __init__(self, flavor):
+        self.flavor = flavor
+
+#lets put lifesvaers in thew tube
+tube = collections.deque()
+flavors = ["orange","pineapple","cherry", "raspberry", "watermelon"]
+for LS in range (1, 10):
+    flavor = flavors[random.randrange(0, len(flavors))]
+    lifesaver = LifeSaver(flavor)
+    tube.append(lifesaver)
+
+# now lets eat from each end
+while len(tube) > 0:
+    side = random.randrange(0,2)
+    if side ==0:
+        LS = tube.pop()
+        print("eating " + LS.flavor + " from the right side")
+    else:
+        LS = tube.popleft()
+        print("eating " + LS.flavor + " from the left side")
+
+print("Yummers")
+
+"""
+
+
